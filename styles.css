@@ -25,6 +25,7 @@ h1, h2 {
 /* Apply the font to all body text */
 body {
   font-family: "Teko", sans-serif;
+  font-size: 55px;
 }
 
 .navbar {
@@ -36,7 +37,7 @@ body {
 .navbar a {
   color: #aaa;
   display: inline-block;
-  font-size: 15px;
+  font-size: 20px;
   padding: 10px;
   text-decoration: none;
 }
