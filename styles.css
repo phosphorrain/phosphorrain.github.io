@@ -1,54 +1,55 @@
-body {
-  font-family: sans-serif;
-  margin: auto;
-  max-width: 1280px;
+/* Make sure the HTML and Body take up full height and are centered */
+html, body {
+  height: 100%;              /* Ensure the body takes up the full viewport height */
+  margin: 0;                 /* Remove default margin */
+  padding: 0;                /* Remove default padding */
+  display: flex;             /* Use Flexbox for centering */
+  flex-direction: column;    /* Align elements in a column (vertical stacking) */
+  justify-content: center;   /* Centers content vertically */
+  align-items: center;       /* Centers content horizontally */
+  text-align: center;        /* Centers text inside the elements */
+  font-family: 'Josefin Sans', sans-serif;  /* Default font for body */
 }
 
-.josefin-sans {
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-
-
-/* Apply the font to all header tags (h1, h2) */
-h1, h2 {
-    font-family: "bebas-neue-regular", sans-serif;
-    padding: 10px;
-}
-
-
-
-/* Apply the font to all body text */
-body {
-  font-family: "josefin-sans", sans-serif;
-  font-size: 55px;
-  padding: 10px;
-}
-
+/* Navbar should be positioned at the top */
 .navbar {
-  background-color: #0000;
-  border-radius: 2px;
-  max-width: 1400px;
+  position: absolute;        /* Absolute position it at the top */
+  top: 10px;                 /* Space from the top */
+  left: 50%;                 /* Horizontally center it */
+  transform: translateX(-50%);  /* Offset it by 50% to center */
+  z-index: 10;               /* Make sure navbar is above other content */
 }
 
+/* Navbar links styling */
 .navbar a {
-  color: #aaa;
-  display: inline-block;
-  font-size: 20px;
-  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;            /* Space out the links */
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* Heading styling */
+h1 {
+  font-family: 'Bebas Neue', sans-serif;  /* Use custom font for the heading */
+  font-size: 4em;                       /* Large text size for the heading */
+  margin-bottom: 20px;                  /* Space below the heading */
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1.2em;       /* Slightly larger text for the paragraph */
+  line-height: 1.6;       /* Adjust line height for better readability */
+  max-width: 600px;       /* Limit the paragraph width for readability */
+  margin: 0 auto;         /* Auto margin for centering */
+}
+
+/* Style the links (like "Listen here") */
+a {
+  color: #00bcd4;
   text-decoration: none;
 }
 
-.navbar a:hover {
-  color: #ffffff;
+a:hover {
+  text-decoration: underline;  /* Underline links on hover */
 }
-
