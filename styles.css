@@ -29,6 +29,12 @@ html, body {
   font-size: 1.1em;
 }
 
+.logo-img {
+  width: 150px;   /* Set a fixed width */
+  height: auto;   /* Keep the aspect ratio intact */
+}
+
+
 /* Heading styling */
 h1 {
   font-family: 'Bebas Neue', sans-serif;  /* Use custom font for the heading */
