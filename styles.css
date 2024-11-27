@@ -30,7 +30,7 @@ html, body {
 }
 
 .logos {
-  width: 65px;   /* Set a fixed width */
+  width: 45px;   /* Set a fixed width */
   height: auto;   /* Keep the aspect ratio intact */
 }
 
