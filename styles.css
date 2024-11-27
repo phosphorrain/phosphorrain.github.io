@@ -4,28 +4,34 @@ body {
   max-width: 1280px;
 }
 
-.mingzat-regular {
-  font-family: "Mingzat", sans-serif;
-  font-weight: 400;
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
   font-style: normal;
 }
 
-.teko {
-  font-family: "Teko", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
   font-style: normal;
 }
+
+
 
 /* Apply the font to all header tags (h1, h2) */
 h1, h2 {
-    font-family: "Mingzat", sans-serif;
+    font-family: "bebas-neue-regular", sans-serif;
+    padding: 10px;
 }
+
+
 
 /* Apply the font to all body text */
 body {
-  font-family: "Teko", sans-serif;
+  font-family: "josefin-sans", sans-serif;
   font-size: 55px;
+  padding: 10px;
 }
 
 .navbar {
