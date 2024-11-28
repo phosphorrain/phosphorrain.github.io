@@ -2,7 +2,7 @@
 html, body {
   height: 100%;              /* Ensure the body takes up the full viewport height */
   margin: 0;                 /* Remove default margin */
-  padding: 0;                /* Remove default padding */
+  padding: 20;                /* Remove default padding */
   display: flex;             
   flex-direction: column;    
   justify-content: center;   
@@ -28,7 +28,7 @@ h1 {
   font-family: 'Bebas Neue', sans-serif; /* or any font you prefer */
   font-size: 4em; /* Make sure it's big enough to see */
   color: #333; /* Dark color for contrast */
-  margin: 20px 0; /* Add space around it */
+  margin: 20px; /* Add space around it */
   padding: 10px; /* Add padding to give it space */
 }
 
