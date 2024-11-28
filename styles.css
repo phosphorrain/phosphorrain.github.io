@@ -40,6 +40,13 @@ h1 {
   font-family: 'Bebas Neue', sans-serif;  /* Use custom font for the heading */
   font-size: 4em;                       /* Large text size for the heading */
   margin-bottom: 20px;                  /* Space below the heading */
+  display: block; /* Ensure it's not set to 'none' */
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;  /* Use custom font for the heading */
+  font-size: 3em;                       /* Large text size for the heading */
+  margin-bottom: 20px;                  /* Space below the heading */
 }
 
 /* Paragraph styling */
