@@ -25,9 +25,11 @@ html, body {
 
 /* Heading styling */
 h1 {
-  font-family: 'Bebas Neue', sans-serif;  /* Use custom font for the heading */
+  font-family: 'Bebas Neue', serif;  /* Use custom font for the heading */
   font-size: 4em;                       /* Large text size for the heading */
   margin-bottom: 20px;                  /* Space below the heading */
+  position: relative; /* or position: static; */
+  top: 0; /* Ensure it's not positioned off-screen */
 }
 
 h2 {
