@@ -9,6 +9,8 @@ html, body {
   align-items: center;      /* Centers content horizontally */
   text-align: center;        /* Centers text inside the elements */
   font-family: 'Josefin Sans', sans-serif;  /* Default font for body */
+  background-color: black;   /* Set background to black */
+  color: white  /* Set text to white */
 }
 
 .bebas-neue-regular {
@@ -27,7 +29,7 @@ html, body {
 h1 {
   font-family: 'Bebas Neue', sans-serif; /* or any font you prefer */
   font-size: 4em; /* Make sure it's big enough to see */
-  color: #333; /* Dark color for contrast */
+  color: white;                        /* Set heading text to white */
   margin: 20px; /* Add space around it */
   padding: 10px; /* Add padding to give it space */
 }
@@ -35,6 +37,7 @@ h1 {
 h2 {
   font-family: 'Bebas Neue', sans-serif;  /* Use custom font for the heading */
   font-size: 3em;                       /* Large text size for the heading */
+  color: white;                        /* Set text to white */
   margin-bottom: 20px;                  /* Space below the heading */
 }
 
@@ -44,6 +47,7 @@ p {
   line-height: 1.6;       /* Adjust line height for better readability */
   max-width: 600px;       /* Limit the paragraph width for readability */
   margin: 0 auto;         /* Auto margin for centering */
+  color: white;           /* Set text to white */
 }
 
 /* Style the links (like "Listen here") */
