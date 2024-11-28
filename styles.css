@@ -25,14 +25,16 @@ html, body {
 
 /* Heading styling */
 h1 {
-  font-family: 'Bebas Neue', sans-serif;  /* Use custom font for the heading */
-  font-size: 3em;                       /* Large text size for the heading */
-  margin-bottom: 20px;                  /* Space below the heading */
+  font-family: 'Bebas Neue', sans-serif; /* or any font you prefer */
+  font-size: 4em; /* Make sure it's big enough to see */
+  color: #333; /* Dark color for contrast */
+  margin: 20px 0; /* Add space around it */
+  padding: 10px; /* Add padding to give it space */
 }
 
 h2 {
   font-family: 'Bebas Neue', sans-serif;  /* Use custom font for the heading */
-  font-size: 2em;                       /* Large text size for the heading */
+  font-size: 3em;                       /* Large text size for the heading */
   margin-bottom: 20px;                  /* Space below the heading */
 }
 
