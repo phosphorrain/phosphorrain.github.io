@@ -36,8 +36,6 @@ h1 {
   font-family: 'Bebas Neue', sans-serif; /* or any font you prefer */
   font-size: 4em; /* Make sure it's big enough to see */
   color: white;                        /* Set heading text to white */
-  margin: 20px; /* Add space around it */
-  padding: 10px; /* Add padding to give it space */
 }
 
 h2 {
