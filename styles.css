@@ -74,7 +74,6 @@ h2 {
 p {
   font-size: 1.2em;       /* Slightly larger text for the paragraph */
   line-height: 1.6;       /* Adjust line height for better readability */
-  max-width: 600px;       /* Limit the paragraph width for readability */
   margin: 0 auto;         /* Auto margin for centering */
   color: white;           /* Set text to white */
 }
