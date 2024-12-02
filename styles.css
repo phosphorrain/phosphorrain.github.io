@@ -25,7 +25,6 @@ html, body {
 }
 
 .header {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -36,6 +35,8 @@ h1 {
   font-family: 'Bebas Neue', sans-serif; /* or any font you prefer */
   font-size: 4em; /* Make sure it's big enough to see */
   color: white;                        /* Set heading text to white */
+  display: block;
+  position: relative;
 }
 
 h2 {
