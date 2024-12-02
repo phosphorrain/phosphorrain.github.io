@@ -2,7 +2,7 @@
 html, body {
   height: 100%;              /* Ensure the body takes up the full viewport height */
   margin: 0;                 /* Remove default margin */
-  padding: 20;                /* Remove default padding */
+  padding: 0;                /* Remove default padding */
   display: flex;             
   flex-direction: column;    
   justify-content: center;   
@@ -24,6 +24,12 @@ html, body {
   height: auto;   /* Keep the aspect ratio intact */
 }
 
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
 /* Heading styling */
 h1 {
