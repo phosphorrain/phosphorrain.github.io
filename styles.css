@@ -30,6 +30,13 @@ html, body {
 }
 
 
+.grenze-gotisch {
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 .bebas-neue-regular {
   font-family: "Bebas Neue", serif;
   font-weight: 400;
@@ -64,7 +71,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Bebas Neue', sans-serif;  /* Use custom font for the heading */
+  font-family: 'Grenze Gotisch', sans-serif;  /* Use custom font for the heading */
   font-size: 3em;                       /* Large text size for the heading */
   color: white;                        /* Set text to white */
   margin-bottom: 20px;                  /* Space below the heading */
