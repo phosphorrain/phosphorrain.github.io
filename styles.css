@@ -57,7 +57,7 @@ html, body {
 /* Heading styling */
 h1 {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 4em; /* Default size */
+    font-size: 5em; /* Default size */
     color: white;
     display: block;
     position: relative;
@@ -79,7 +79,7 @@ h2 {
 
 /* Paragraph styling */
 p {
-  font-size: 1.2em;       /* Slightly larger text for the paragraph */
+  font-size: 1.3em;       /* Slightly larger text for the paragraph */
   line-height: 1.6;       /* Adjust line height for better readability */
   margin: 0 auto;         /* Auto margin for centering */
   color: white;           /* Set text to white */
