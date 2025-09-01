@@ -13,5 +13,5 @@ All updates are managed via direct upload through private server. Full documenta
 <h2> Font choices </h2>
 
 <b> All fonts chosen for the site are Open Source. </b><br>
-Header font: <br>
-Body font: <br>
+Header font: Bebas Neue <br>
+Body font: Grenze Gotisch <br>
